@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  background-color: #fff8dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+
+h2 {
+  text-align: center;
+  color: #f4a300;
+  margin-bottom: 20px;
+}
+
+
+p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.inputBox {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 10px 10px 10px 5px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #f4a300;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.inputBox span {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  color: #999;
+  font-size: 16px;
+  transition: 0.3s ease;
+  pointer-events: none;
+}
+
+.inputBox input:focus ~ span,
+.inputBox input:valid ~ span {
+  top: -15px;
+  left: 0;
+  color: #f4a300;
+  font-size: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #f4a300;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e09100;
+}

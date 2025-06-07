@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fffdf3;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 50px 20px;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+}
+
+h1 {
+    font-size: 28px;
+    color: #f0b400;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Filtro de busca */
+.filtro-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.filtro-form label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.filtro-form input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 180px;
+}
+
+.filtro-form button,
+.filtro-form a {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.filtro-form button {
+    background-color: #f0b400;
+    color: white;
+}
+
+.filtro-form button:hover {
+    background-color: #d49f00;
+}
+
+.filtro-form a {
+    background-color: #ddd;
+    color: #333;
+}
+
+.filtro-form a:hover {
+    background-color: #bbb;
+}
+
+/* Tabela de produtos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background-color: #f0b400;
+    color: white;
+}
+
+table th, table td {
+    padding: 14px 12px;
+    border: 1px solid #eee;
+    text-align: left;
+    font-size: 15px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Link de voltar */
+.voltar-menu {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.voltar-menu a {
+    color: #f0b400;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.voltar-menu a:hover {
+    color: #d49f00;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .filtro-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filtro-form input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .filtro-form button,
+    .filtro-form a {
+        width: 100%;
+        max-width: 300px;
+    }
+}

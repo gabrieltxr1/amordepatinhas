@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff8e1;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #f4c542;
+    margin-bottom: 15px;
+}
+
+.menu-superior {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.botao-novo {
+    background-color: #f4c542;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.botao-novo:hover {
+    background-color: #e1b730;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #f4c542;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4c542;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #fff4c2;
+}
+
+.action-links a {
+    margin-right: 10px;
+    color: #f4c542;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.action-links a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 400px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #f4c542;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #e1b730;
+}
+
+.voltar-menu {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.voltar-menu a {
+    display: inline-block;
+    background-color: #f4c542;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.voltar-menu a:hover {
+    background-color: #e1b730;
+}

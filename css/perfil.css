@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff8e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    border: 2px solid #f4c542;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #f4c542;
+    margin-bottom: 15px;
+}
+
+.dados p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.lista-pets {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.lista-pets li {
+    margin-bottom: 8px;
+}
+
+.voltar-menu {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.voltar-menu a {
+    background-color: #f4c542;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.voltar-menu a:hover {
+    background-color: #e1b730;
+}
